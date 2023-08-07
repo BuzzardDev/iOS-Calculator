@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/sf-mono');
+
+.display{
+    background-color: transparent;
+    height: 60px;
+    font-size: 40px;
+    width: 274px;
+    font-family: 'SF Mono', sans-serif;
+    border: none;
+    text-align: right;
+    color: white;
+    resize: none;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+*:focus {
+    outline: none;
+}
+
+

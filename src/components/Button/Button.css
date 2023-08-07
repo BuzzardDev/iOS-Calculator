@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/sf-mono');
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    font-family: 'SF Mono', sans-serif;
+}
+
+.dark_gray{
+    background-color: #333333;
+    color: white;
+}
+
+.dark_gray:active{
+    background-color: #737373;
+}
+
+.light_gray{
+    background-color: #a5a5a5;
+    color: black;
+}
+
+.light_gray:active{
+    background-color: #d9d9d9;
+}
+
+.orange{
+    background-color: #ff9f0a;
+    color: white;
+}
+
+.orange:active{
+    background-color: #fcc78d;
+}
+
+.zero{
+    padding-left: 20px;
+    justify-content: flex-start !important;
+    width: 120px !important;
+    height: 60px;
+    border-radius: 55px !important;
+}

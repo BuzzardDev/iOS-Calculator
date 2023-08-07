@@ -1,0 +1,40 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.calculator_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding-bottom: 20px;
+}
+
+.calculator_grid > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 320px;
+    height: 500px;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+}
+
+#zero{
+    grid-column: span 2;
+}
+
+#display{
+    grid-column: span 4;
+}
