@@ -18,4 +18,15 @@
     outline: none;
 }
 
+@media screen and (max-width: 480px){
+    .display{
+        width: 90%;
+        height: 100%;
+        font-size: 35px;
+    }
+
+    textarea{
+        padding-left: 10px;
+    }
+}
 

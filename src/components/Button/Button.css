@@ -46,3 +46,22 @@
     height: 60px;
     border-radius: 55px !important;
 }
+
+@media screen and (max-width: 480px){
+    #button{
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        width: 80px;
+        height: 80px;
+        /*border-radius: 50%;*/
+        /*border: none;*/
+        /*font-size: 30px;*/
+        /*font-family: 'SF Mono', sans-serif;*/
+    }
+
+    .zero{
+        width: 140px !important;
+        height: 80px !important;
+    }
+}
